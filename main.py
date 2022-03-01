@@ -2,8 +2,8 @@ import numpy as np
 from astropy import constants as const
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
-from SNa_Data_1999 import LowzArr
-#from DataProcessing import LowzArr, proDat
+#from SNe_Dat_1999 import LowzArr
+from DataProcessing import LowzArr, proDat
 
 def mb(z, Mb):
     return 5*np.log10(const.c.value * z) + Mb
