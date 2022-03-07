@@ -5,9 +5,10 @@ lowzArr_99_unsorted = [0.03 16.26 0.2; 0.05 17.63 0.18; 0.026 16.08 0.24;
     0.045 17.61 0.19; 0.043 17.19 0.18; 0.018 15.61 0.21; 
     0.079 18.27 0.18; 0.088 19.28 0.18; 0.063 18.24 0.18;
     0.071 18.33 0.2; 0.052 17.54 0.18; 0.05 17.69 0.2];
+
 %Full data set for all redshift: 
 %Column 1: z, column 2: mb, column 3: uncertainty in mb
-zArr_99_unsorted = [0.458 0.001 22.12 0.10 0.03 0.72 22.81 23.11 0.46;
+highzArr_99_unsorted = [0.458 0.001 22.12 0.10 0.03 0.72 22.81 23.11 0.46;
     0.354 0.001 22.08 0.10 0.11 0.58 22.55 22.38 0.33;
     0.425 0.001 21.52 0.21 0.03 0.68 22.17 22.13 0.49;
     0.374 0.001 21.28 0.06 0.10 0.61 21.79 21.72 0.22;
@@ -52,4 +53,7 @@ zArr_99_unsorted = [0.458 0.001 22.12 0.10 0.03 0.72 22.81 23.11 0.46;
 
 %Sort arrays by redshift
 lowzArr_99 = sortrows(lowzArr_99_unsorted);
-zArr_99 = sortrows(zArr_99_unsorted(:,[1 8 9]));
+highzArr_99 = sortrows(highzArr_99_unsorted(:,[1 8 9]));
+
+%Create full array of all SNe
+zArr_99 = [lowzArr_99; highzArr_99];
