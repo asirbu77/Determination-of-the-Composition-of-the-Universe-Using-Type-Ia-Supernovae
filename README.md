@@ -1,5 +1,10 @@
 # Determination-of-the-Composition-of-the-Universe-Using-Type-Ia-Supernovae
 
+## Abstract
+
+## Project description
+This project was conducted as a course requirement for Astronomy 4602 at Western University.
+
 ## Files:
 
 1 - SNeDat.txt: 2011 data-set **MUST BE INCLUDED IN WORKING DIRECTORY BEFORE RUNNING ANY CODE**
