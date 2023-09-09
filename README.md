@@ -5,7 +5,7 @@ The objective of this investigation is to study the acceleration of the expansio
 determining the relative energy densities of dark energy and matter. Using type Ia supernovae as
 standard candles, we analyse measurements of their redshift and apparent magnitude in the B-band.
 We first fit a simple model for $m_B(z)$ in the low redshift limit to the $z \leq 0.1$ data and determine that
-type Ia supernovae have an effective blue-band absolute magnitude of $\mathscr{M}_B = −3.19 \pm 0.07$. We then
+type Ia supernovae have an effective blue-band absolute magnitude of $M_B$ = −3.19 ± 0.07. We then
 construct a general relativistic model for $m_B(z;\Omega_{M,0},\Omega_{\Lambda,0})$ under the assumption of a flat universe.
 We fit the data to this model both with and without the constraint that $\Omega_{M,0} + \Omega_{\Lambda,0} = 1$ and find that
 the unconstrained fits have higher coefficients of determination and are therefore, likely, better quality
